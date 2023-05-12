@@ -17,6 +17,13 @@ import java.util.List;
  * 
  */
 public class CD {
+	public String getNomArtiste() {
+		return nomArtiste;
+	}
+
+	public String getNomCD() {
+		return nomCD;
+	}
 
 	/**
 	 * constante pour definir comment afficher une separation entre les elements
@@ -95,6 +102,11 @@ public class CD {
 		if (numPiste < 10)
 			resultat = "0" + resultat;
 		return (resultat);
+	}
+
+	public int compareTo (Object compare){
+		CD cd = (CD) (compare);
+		if this.nomArtiste.equals()
 	}
 
 	// TODO 
