@@ -1,0 +1,11 @@
+-le main crée un objet chargeur de type ChargeurMagasin.
+-il appelle une méthode chargerMagasin() sur l'objet.
+-cette méthode appelle le constructeur d'un objet chargeCd1 de type Chargeur CD avec en argument une chaine de caractères désignant l'emplacement fichier du CD à charger.
+-appelle la méthode chargerCD sur ce nouvel objet. Elle crée un objet cd1 de type CD et passe en argument le nom de l'artiste et le nom du cd.
+-la méthode chargerCD() appelle ensuite sur son propre objet la méthode extrairePiste()
+-puis ajouterPiste() sur l'objet cd1
+-puis de nouveau extrairePiste()
+-et de nouveau ajouterPiste() sur cd1.
+-La méthode chargerCD() est alors terminée.
+-la méthode chargerMagasin de Chargeur appelle la méthode ajouteCD(cd1) de l'objet magasin avec en paramètre le cd créé plus tôt
+-les méthodes se finissent toutes et le programme est fini.
