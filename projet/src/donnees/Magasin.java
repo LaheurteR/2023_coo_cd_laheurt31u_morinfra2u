@@ -56,7 +56,7 @@ public class Magasin {
 	}
 	
 	/**
-	 * permet d'acceder a un CD
+	 * permet d'acceder � un CD
 	 * 
 	 * @return le cd a l'indice i ou null si indice est non valide
 	 */
